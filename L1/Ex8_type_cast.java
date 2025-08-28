@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 class Ex8_type_cast
  {
