@@ -1,4 +1,4 @@
-public class Ex2_escape_char {
+public class Ex02_escape_char {
   public static void main(String[] args) {
     // escape charactor "\n" "\t"
     System.out.print ("Hello\nWorld\n");

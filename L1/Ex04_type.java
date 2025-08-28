@@ -1,4 +1,4 @@
-public class Ex4_type {
+public class Ex04_type {
   public static void main(String[] args) {
 
     // whole number

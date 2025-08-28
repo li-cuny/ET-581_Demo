@@ -1,5 +1,5 @@
 
-class Ex8_type_cast
+class Ex08_type_cast
  {
     public static void main(String[] args) {
       int myInt = 9;

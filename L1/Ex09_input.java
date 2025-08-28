@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Ex9_input {
+class Ex09_input {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

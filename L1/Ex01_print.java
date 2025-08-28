@@ -1,6 +1,6 @@
 // System.ou.print() will print message to console
 
-public class Ex1_print {
+public class Ex01_print {
   public static void main(String[] args) {
     // print "Hello World" end with new line
     System.out.println("Hello World");

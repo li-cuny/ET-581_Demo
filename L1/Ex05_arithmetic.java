@@ -1,5 +1,5 @@
 // Arithmatic operation
-public class Ex5_arithmetic {
+public class Ex05_arithmetic {
   public static void main(String[] args) {
     // Arithmetic operators
     int a = 10;

@@ -1,5 +1,5 @@
 // name of variable
-public class Ex3_variable {
+public class Ex03_variable {
   public static void main(String[] args) {
     // type variable_name = value;
     int b = 10; // recommended

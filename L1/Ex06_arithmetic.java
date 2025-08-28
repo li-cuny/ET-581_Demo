@@ -1,5 +1,5 @@
 // Arithmatic operation
-public class Ex6_arithmetic {
+public class Ex06_arithmetic {
   public static void main(String[] args) {
 
     System.out.println("Postfix vs prefix ++");
