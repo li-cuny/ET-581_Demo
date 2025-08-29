@@ -97,7 +97,6 @@ public class Ex2_String_method {
     // of oldChar with newChar.
     System.out.println(txt.replace('o','7'));
     System.out.println(txt.replace('l','0'));
-    System.out.println(txt);
     //System.exit(0);
 
     String s1 = "Hello";
@@ -110,7 +109,7 @@ public class Ex2_String_method {
 
     s2 = "HELLO";
     System.out.println(s1.equalsIgnoreCase(s2));
-    System.exit(0);
+    //System.exit(0);
 
     System.out.println("== not same as .equal()");
 
@@ -125,6 +124,6 @@ public class Ex2_String_method {
     //System.exit(0);
 
     s1 = "        hello       world      ";
-    System.out.println(s1.trim());
+    System.out.println("[" +s1.trim() +"]");
   }
 }
