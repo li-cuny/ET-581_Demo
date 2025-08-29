@@ -119,6 +119,7 @@ public class Ex2_String_method {
     System.out.println((s1==s3));
     //System.exit(0);
 
+    //Unicode value of 'e' is 101, 'E' is 69. diff is 32
     System.out.println(s1.compareTo(s2));
     System.out.println(s2.compareTo(s1));
     //System.exit(0);
