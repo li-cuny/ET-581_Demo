@@ -13,5 +13,6 @@ public class Ex08_else {
     } else {
       System.out.println("Good evening.");
     }
+    input.close();
   }
 }
