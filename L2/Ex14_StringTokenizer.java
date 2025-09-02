@@ -8,14 +8,17 @@ public class Ex14_StringTokenizer {
      System.out.println("If you have no middle name,");
      System.out.println("enter \"None\".");
      String inputLine = keyboard.nextLine();
-     String delimiters = ", ]"; //Comma and blank space
+     String delimiters = ", "; //Comma and blank space
      StringTokenizer nameFactory = new StringTokenizer(inputLine, delimiters);
      String lastName = nameFactory.nextToken();
      String firstName = nameFactory.nextToken();
      String middleName = nameFactory.nextToken();
-     if (middleName.equalsIgnoreCase("None"))
-        middleName = ""; //Empty string
+     if (middleName.equalsIgnoreCase("None")){
+         middleName = ""; //Empty string
+     }
+       
      System.out.println("Hello " + firstName + " " + middleName + " " + lastName);
+     keyboard.close();
   }
 }
 

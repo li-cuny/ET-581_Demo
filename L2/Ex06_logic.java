@@ -1,6 +1,6 @@
 public class Ex06_logic {
   public static void main(String[] args) {
-    /*int a = 5, b = 10;
+    int a = 5, b = 10;
     System.out.println("and (&&) operator");
     System.out.println(true && true);   // T
     System.out.println(true && false);  // F
@@ -25,7 +25,7 @@ public class Ex06_logic {
     System.out.println(! (a<b));
     System.out.println(! (3*a<=b));
     //System.exit(0);
-    */
+    
 
     int x = 3, y = 2, z = 6;
     System.out.println(( x+y<z && y>z-2 || x + y == z-1 || x%y != z-5 ));
