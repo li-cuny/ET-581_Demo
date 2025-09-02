@@ -2,7 +2,7 @@ public class Ex02_String_method {
   public static void main(String[] args) {
     // int length()
     String txt = "Hello World";
-    System.out.println("Length of string: "+txt.length());
+    System.out.println("Length of string: " + txt.length());
 
     // char charAt(int i)
     System.out.println(txt.charAt(0));
@@ -125,6 +125,6 @@ public class Ex02_String_method {
     //System.exit(0);
 
     s1 = "        hello       world      ";
-    System.out.println("[" +s1.trim() +"]");
+    System.out.println("[" + s1.trim() +"]");
   }
 }
