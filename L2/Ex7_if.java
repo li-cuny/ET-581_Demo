@@ -8,8 +8,9 @@ public class Ex7_if {
     int x = input.nextInt();
     System.out.print("Enter y:");
     int y = input.nextInt();
-    if (x > y) 
+    if (x > y) {
       System.out.println(x + " is greater than " + y);
+    } 
     System.out.println("This is not part of if");
   }
 }
