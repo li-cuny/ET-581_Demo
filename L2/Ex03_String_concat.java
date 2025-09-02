@@ -1,8 +1,8 @@
 public class Ex03_String_concat {
   public static void main(String[] args) {
     // string concatenation use + operator
-    String s1="David";
-    String s2="Brown";
+    String s1 = "David";
+    String s2 = "Brown";
     System.out.println(s1 + " " + s2);
     // will print out "David Brown"
     //System.exit(0);
@@ -31,7 +31,7 @@ public class Ex03_String_concat {
     int age = 10;
     System.out.println("My age is " + age);
 
-    String txt="nyc";
+    String txt = "nyc";
     System.out.println(txt);
     txt = txt.toUpperCase();
     System.out.println(txt);
