@@ -1,4 +1,4 @@
-public class Ex5_comparison {
+public class Ex05_comparison {
   public static void main(String[] args) {
     int a = 5, b = 10;
     System.out.println(2*a==b);

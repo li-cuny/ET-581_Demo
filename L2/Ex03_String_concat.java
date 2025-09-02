@@ -1,4 +1,4 @@
-public class Ex3_String_concat {
+public class Ex03_String_concat {
   public static void main(String[] args) {
     // string concatenation use + operator
     String s1="David";

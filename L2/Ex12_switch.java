@@ -24,5 +24,6 @@ public class Ex12_switch {
       default:
         System.out.println("Invalid option");
     }
+    input.close();
   }
 }

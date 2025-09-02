@@ -13,5 +13,6 @@ public class Ex10_ternary {
     System.out.println(result);
 
     System.out.println((time < 18) ? "Good day." : "Good evening.");
+    input.close();
   }
 }

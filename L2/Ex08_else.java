@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex8_else {
+public class Ex08_else {
   public static void main(String[] args) {
     // block of code to be executed
     // if the condition is true

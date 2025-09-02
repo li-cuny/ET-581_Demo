@@ -5,7 +5,6 @@ public class Ex13_switch {
     System.out.print("Enter your workday, M,T,W,H,F:");
     Scanner input = new Scanner(System.in);
     char day = input.next().charAt(0);
-    
     switch (day) {
       case 'M':
         System.out.println("Monday");
@@ -25,5 +24,6 @@ public class Ex13_switch {
       default:
         System.out.println("Invalid option");
     }
+    input.close();
   }
 }

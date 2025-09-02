@@ -1,4 +1,4 @@
-public class Ex4_assignment {
+public class Ex04_assignment {
   public static void main(String[] args) {
     int a = 10;
     System.out.println(a);

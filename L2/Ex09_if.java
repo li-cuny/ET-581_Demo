@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex9_if {
+public class Ex09_if {
   public static void main(String[] args) {
     // block of code to be executed
     // if the condition is true
@@ -15,5 +15,6 @@ public class Ex9_if {
     } else {
       System.out.println("Good evening.");
     }
+    input.close();
   }
 }

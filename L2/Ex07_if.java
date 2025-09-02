@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex7_if {
+public class Ex07_if {
   public static void main(String[] args) {
     // block of code to be executed
     // if the condition is true
@@ -12,5 +12,6 @@ public class Ex7_if {
       System.out.println(x + " is greater than " + y);
     } 
     System.out.println("This is not part of if");
+    input.close();
   }
 }

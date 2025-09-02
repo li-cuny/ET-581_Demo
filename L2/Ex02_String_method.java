@@ -1,4 +1,4 @@
-public class Ex2_String_method {
+public class Ex02_String_method {
   public static void main(String[] args) {
     // int length()
     String txt = "Hello World";
