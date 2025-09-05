@@ -100,15 +100,17 @@ public class Ex02_String_method {
     //System.exit(0);
 
     String s1 = "Hello";
+    String s11 ="Hello";
     String s2 = "Hi";
 
     System.out.println(s1.equals(s2));
-    System.out.println((s1!=s2));
-    System.out.println((s1==s2));
+    System.out.println("(s1!=s2)" + (s1!=s2));
+    System.out.println("(s1==s2)" + (s1==s2));
+    System.out.println("(s1==s11)" + (s1==s11));
     //System.exit(0);
 
     s2 = "HELLO";
-    System.out.println(s1.equalsIgnoreCase(s2));
+    System.out.println("s1.equalsIgnoreCase(s2) " + s1.equalsIgnoreCase(s2));
     //System.exit(0);
 
     System.out.println("== not same as .equal()");
