@@ -1,4 +1,4 @@
-public class Ex01String {
+public class Ex01_String {
   public static void main(String[] args) {
     // primitive data type style
     String s1 = "example1";
