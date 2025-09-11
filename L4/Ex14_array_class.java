@@ -9,5 +9,11 @@ public class Ex14_array_class {
     System.out.println(doubles.getClass().getName());
     System.out.println(str.getClass().getName());
     System.out.println(strings.getClass().getName());
+
+
+    // 2d array
+    int[][] twoDimArray = new int[3][3];
+    System.out.println(twoDimArray.getClass().getName());
+    System.out.println(twoDimArray[0].getClass().getName());
   }
 }
