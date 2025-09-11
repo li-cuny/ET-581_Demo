@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Arrays;
+
 public class Ex09_length {
   public static void main(String[] args) {
     int[] a = {1,2,3,4};

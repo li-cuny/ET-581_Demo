@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.util.Arrays;
 public class Ex08_deep_copy_2 {
   public static void main(String[] args) {
