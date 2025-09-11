@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Arrays;
+
 public class Ex12_traverse_2d_array {
   public static void main(String[] args) {
     int[][] a = {{1,2},{4,5,6,7},{7,8,9}};
