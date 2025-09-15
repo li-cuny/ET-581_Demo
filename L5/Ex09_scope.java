@@ -21,7 +21,7 @@ public class Ex09_scope {
     int y = 30;
     System.out.println(y);
     {
-      //int x = 40; // error, can not define again
+      // int x = 40; // error, can not define again
     }
   }
 }
