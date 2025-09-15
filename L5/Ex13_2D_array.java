@@ -11,17 +11,21 @@ public class Ex13_2D_array {
   // update array in function
   static void update(int [][] a){
     for(int i=0;i<a.length;i++){
-      for(int j=0;j<a[i].length;j++)
+      for(int j=0;j<a[i].length;j++){
         a[i][j] *= 10;
+      }
     }
   }
   // create a new array obj with given size
   static int[][] return_array(int r, int c){
     int [][] a = new int[r][c];
     int count = 1;
-    for(int i=0;i<r;i++)
-      for(int j=0;j<c;j++)
+    for(int i=0;i<r;i++){
+      for(int j=0;j<c;j++){
         a[i][j] = count++;
+      }   
+    }
+      
     return a;
   }
   public static void main(String[] args) {
