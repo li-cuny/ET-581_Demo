@@ -4,8 +4,7 @@ public class TryCatchExample6 {
         int i=50;
         int j=0;
         int data;
-        try
-        {
+        try {
             data=i/j; //may throw exception
         }
             // handling the exception

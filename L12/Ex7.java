@@ -2,8 +2,7 @@ public class TryCatchExample7 {
 
     public static void main(String[] args) {
 
-        try
-        {
+        try {
             int data1=50/0; //may throw exception
 
         }
