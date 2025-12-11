@@ -1,7 +1,7 @@
 import javax.swing.*;
-public class Simple2 extends JFrame{//inheriting JFrame
+public class Simple3 extends JFrame{//inheriting JFrame
     JFrame f;
-    Simple2(){
+    Simple3(){
         JButton b=new JButton("click");//create button
         b.setBounds(130,100,100, 40);
         add(b);//adding button on frame
@@ -11,6 +11,6 @@ public class Simple2 extends JFrame{//inheriting JFrame
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
     }
     public static void main(String[] args) {
-        new Simple2();
+        new Simple3();
     }
 }

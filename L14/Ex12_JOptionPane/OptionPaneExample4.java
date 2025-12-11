@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class OptionPaneExample extends WindowAdapter{
+public class OptionPaneExample4 extends WindowAdapter{
     JFrame f;
-    OptionPaneExample(){
+    OptionPaneExample4(){
         f=new JFrame();
         f.addWindowListener(this);
         f.setSize(300, 300);
@@ -17,6 +17,6 @@ public class OptionPaneExample extends WindowAdapter{
         }  
     }
     public static void main(String[] args) {
-        new  OptionPaneExample();
+        new  OptionPaneExample4();
     }
 }

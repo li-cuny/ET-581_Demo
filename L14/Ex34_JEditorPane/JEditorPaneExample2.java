@@ -1,11 +1,11 @@
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 
-public class JEditorPaneExample {
+public class JEditorPaneExample2 {
     JFrame myFrame = null;
 
     public static void main(String[] a) {
-        (new JEditorPaneExample()).test();
+        (new JEditorPaneExample2()).test();
     }
 
     private void test() {

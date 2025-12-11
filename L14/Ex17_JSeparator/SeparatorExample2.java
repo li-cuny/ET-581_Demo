@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-public class SeparatorExample
+public class SeparatorExample2
 {
     public static void main(String args[]) {
         JFrame f = new JFrame("Separator Example");

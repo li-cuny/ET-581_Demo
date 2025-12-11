@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.event.*;
-class RadioButtonExample extends JFrame implements ActionListener{
+class RadioButtonExample2 extends JFrame implements ActionListener{
     JRadioButton rb1,rb2;
     JButton b;
-    RadioButtonExample(){
+    RadioButtonExample2(){
         rb1=new JRadioButton("Male");
         rb1.setBounds(100,50,100,30);
         rb2=new JRadioButton("Female");
@@ -28,6 +28,6 @@ class RadioButtonExample extends JFrame implements ActionListener{
         }
     }
     public static void main(String args[]){
-        new RadioButtonExample();
+        new RadioButtonExample2();
     }
 }

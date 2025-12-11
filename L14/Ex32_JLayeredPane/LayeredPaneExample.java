@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.lang.Integer;
 public class LayeredPaneExample extends JFrame {
     public LayeredPaneExample() {
         super("LayeredPane Example");
@@ -16,9 +17,9 @@ public class LayeredPaneExample extends JFrame {
         bottom.setBackground(Color.cyan);
         bottom.setBounds(60, 60, 50, 50);
         //adding buttons on pane
-        pane.add(bottom, new Integer(1));
-        pane.add(middle, new Integer(2));
-        pane.add(top, new Integer(3));
+        pane.add(bottom, Integer.valueOf(1));
+        pane.add(middle, Integer.valueOf(2));
+        pane.add(top, Integer.valueOf(3));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {

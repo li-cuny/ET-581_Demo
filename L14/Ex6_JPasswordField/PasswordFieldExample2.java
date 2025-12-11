@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class PasswordFieldExample {
+public class PasswordFieldExample2 {
     public static void main(String[] args) {
         JFrame f=new JFrame("Password Field Example");
         final JLabel label = new JLabel();

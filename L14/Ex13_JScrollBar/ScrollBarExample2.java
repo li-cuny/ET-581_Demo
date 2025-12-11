@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-class ScrollBarExample
+class ScrollBarExample2
 {
-    ScrollBarExample(){
+    ScrollBarExample2(){
         JFrame f= new JFrame("Scrollbar Example");
         final JLabel label = new JLabel();
         label.setHorizontalAlignment(JLabel.CENTER);
@@ -22,6 +22,6 @@ class ScrollBarExample
     }
     public static void main(String args[])
     {
-       new ScrollBarExample();
+       new ScrollBarExample2();
     }
 }

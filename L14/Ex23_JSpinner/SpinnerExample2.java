@@ -1,6 +1,6 @@
 import javax.swing.*;
 import javax.swing.event.*;
-public class SpinnerExample {
+public class SpinnerExample2 {
     public static void main(String[] args) {
         JFrame f=new JFrame("Spinner Example");
         final JLabel label = new JLabel();

@@ -1,12 +1,12 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class MenuExample implements ActionListener{
+public class MenuExample2 implements ActionListener{
     JFrame f;
     JMenuBar mb;
     JMenu file,edit,help;
     JMenuItem cut,copy,paste,selectAll;
     JTextArea ta;
-    MenuExample(){
+    MenuExample2(){
         f=new JFrame();
         cut=new JMenuItem("cut");
         copy=new JMenuItem("copy");
@@ -42,6 +42,6 @@ public class MenuExample implements ActionListener{
             ta.selectAll();
     }
     public static void main(String[] args) {
-        new MenuExample();
+        new MenuExample2();
     }
 }

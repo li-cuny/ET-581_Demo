@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class CheckBoxExample extends JFrame implements ActionListener{
+public class CheckBoxExample3 extends JFrame implements ActionListener{
     JLabel l;
     JCheckBox cb1,cb2,cb3;
     JButton b;
-    CheckBoxExample(){
+    CheckBoxExample3(){
         l=new JLabel("Food Ordering System");
         l.setBounds(50,50,300,20);
         cb1=new JCheckBox("Pizza @ 100");
@@ -41,6 +41,6 @@ public class CheckBoxExample extends JFrame implements ActionListener{
         JOptionPane.showMessageDialog(this,msg+"Total: "+amount);
     }
     public static void main(String[] args) {
-        new CheckBoxExample();
+        new CheckBoxExample3();
     }
 }  

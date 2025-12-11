@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class CheckBoxExample
+public class CheckBoxExample2
 {
-     CheckBoxExample(){
+     CheckBoxExample2(){
         JFrame f= new JFrame("CheckBox Example");
         final JLabel label = new JLabel();
         label.setHorizontalAlignment(JLabel.CENTER);
@@ -31,6 +31,6 @@ public class CheckBoxExample
      }
       public static void main(String args[])
       {
-          new CheckBoxExample();
+          new CheckBoxExample2();
       }
 }

@@ -1,6 +1,6 @@
 import javax.swing.*;
 import javax.swing.event.*;
-public class TableExample {
+public class TableExample2 {
       public static void main(String[] a) {
             JFrame f = new JFrame("Table Example");
             String data[][]={{"101","Amit","670000"},

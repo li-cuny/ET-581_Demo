@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class TextAreaExample implements ActionListener{
+public class TextAreaExample2 implements ActionListener{
     JLabel l1,l2;
     JTextArea area;
     JButton b;
-    TextAreaExample() {
+    TextAreaExample2() {
         JFrame f= new JFrame();
         l1=new JLabel();
         l1.setBounds(50,25,100,30);
@@ -28,6 +28,6 @@ public class TextAreaExample implements ActionListener{
         l2.setText("Characters: "+text.length());
     }
     public static void main(String[] args) {
-        new TextAreaExample();
+        new TextAreaExample2();
     }
 }

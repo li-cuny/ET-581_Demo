@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-class PopupMenuExample
+class PopupMenuExample2
 {
-     PopupMenuExample(){
+     PopupMenuExample2(){
          final JFrame f= new JFrame("PopupMenu Example");
          final JPopupMenu popupmenu = new JPopupMenu("Edit");
          JMenuItem cut = new JMenuItem("Cut");
@@ -22,6 +22,6 @@ class PopupMenuExample
      }
     public static void main(String args[])
     {
-            new PopupMenuExample();
+            new PopupMenuExample2();
     }
 }

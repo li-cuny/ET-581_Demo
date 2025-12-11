@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class ListExample
+public class ListExample2
 {
-     ListExample(){
+     ListExample2(){
         JFrame f= new JFrame();
         final JLabel label = new JLabel();
         label.setSize(500,100);
@@ -36,7 +36,7 @@ public class ListExample
                 }
                 if(list2.getSelectedIndex() != -1){
                     data += ", FrameWork Selected: ";
-                    for(Object frame :list2.getSelectedValues()){
+                    for(Object frame :list2.getSelectedValuesList()){
                        data += frame + " ";
                     }
                 }
@@ -46,5 +46,5 @@ public class ListExample
     }
     public static void main(String args[])
     {
-   new ListExample();
+   new ListExample2();
     }}

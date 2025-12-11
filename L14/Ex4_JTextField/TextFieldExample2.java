@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class TextFieldExample implements ActionListener{
+public class TextFieldExample2 implements ActionListener{
     JTextField tf1,tf2,tf3;
     JButton b1,b2;
-    TextFieldExample(){
+    TextFieldExample2(){
         JFrame f= new JFrame();
         tf1=new JTextField();
         tf1.setBounds(50,50,150,20);
@@ -39,6 +39,6 @@ public class TextFieldExample implements ActionListener{
         tf3.setText(result);
     }
     public static void main(String[] args) {
-        new TextFieldExample();
+        new TextFieldExample2();
     }
 }

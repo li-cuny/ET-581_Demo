@@ -1,7 +1,7 @@
 import javax.swing.*;
-public class Simple {
+public class Simple2 {
     JFrame f;
-    Simple(){
+    Simple2(){
         f=new JFrame();//creating instance of JFrame
         JButton b=new JButton("click");//creating instance of JButton
         b.setBounds(130,100,100, 40);
@@ -13,6 +13,6 @@ public class Simple {
     }
 
     public static void main(String[] args) {
-        new Simple();  
+        new Simple2();  
     }
 }

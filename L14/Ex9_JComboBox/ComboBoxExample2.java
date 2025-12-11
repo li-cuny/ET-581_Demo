@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class ComboBoxExample {
+public class ComboBoxExample2 {
     JFrame f;
-    ComboBoxExample(){
+    ComboBoxExample2(){
         f=new JFrame("ComboBox Example");
         final JLabel label = new JLabel();
         label.setHorizontalAlignment(JLabel.CENTER);
@@ -26,6 +26,6 @@ public class ComboBoxExample {
         });
     }
     public static void main(String[] args) {
-        new ComboBoxExample();
+        new ComboBoxExample2();
     }
 }
